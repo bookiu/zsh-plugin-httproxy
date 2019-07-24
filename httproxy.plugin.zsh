@@ -21,8 +21,10 @@ setnoproxy() {
 getproxy() {
     echo "http_proxy=$http_proxy"
     echo "https_proxy=$https_proxy"
+    echo "no_proxy=$no_proxy"
     echo "HTTP_PROXY=$HTTP_PROXY"
     echo "HTTPS_PROXY=$HTTPS_PROXY"
+    echo "NO_PROXY=$NO_PROXY"
 }
 
 unsetproxy() {
